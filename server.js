@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb+srv://admin:yourpassword@cluster0.mongodb.net/jobsschoolhunt?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://admin:Chapra@841428@cluster0.mongodb.net/jobsschoolhunt?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => console.log('Connected to MongoDB'));
